@@ -10,12 +10,7 @@
 
     <name>screenshot</name>
     <description>ScreenShot t for Spring Boot</description>
-    <properties>
-        <junit.version>4.12</junit.version>
-        <selenium.version>2.39.0</selenium.version>
-        <phantomjsdriver.version>1.4.4</phantomjsdriver.version>
-        <webdrivermanager.version>3.0.0</webdrivermanager.version>
-    </properties>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -24,6 +19,11 @@
     </parent>
 
     <properties>
+        <junit.version>4.12</junit.version>
+        <selenium.version>3.8.1</selenium.version>
+        <phantomjsdriver.version>1.4.4</phantomjsdriver.version>
+        <webdrivermanager.version>3.0.0</webdrivermanager.version>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
