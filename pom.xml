@@ -60,7 +60,7 @@
             <groupId>com.codeborne</groupId>
             <artifactId>phantomjsdriver</artifactId>
             <version>${phantomjsdriver.version}</version>
-            <scope>test</scope>
+
         </dependency>
 
         <dependency>
